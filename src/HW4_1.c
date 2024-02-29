@@ -23,7 +23,7 @@ void initialize_grid(float grid[X_SIZE][Y_SIZE]) {
 
 void print_cycle_temperatures(float grid[X_SIZE][Y_SIZE], int cycle) {
     if (cycle % PRINT_STEPS == 0) {
-        printf("Cycle: %d. ", cycle);
+        printf("Cycle: %-4d. ", cycle);
         printf("[1,1]: %f, [150,150]: %f, [400,400]: %f, [500,500]: %f, [750,750]: %f, [900,900]: %f\n",
                grid[1][1], grid[150][150], grid[400][400], grid[500][500], grid[750][750], grid[900][900]);
     }
