@@ -4,10 +4,10 @@ use strict;
 use warnings;
 
 # Output file path
-# my $output_file = '../Output/Ghonim_Nordstrom_output4_(1)_mac_os.txt';
- my $output_file = '../Output/Ghonim_Nordstrom_output4_(2)_mac_os.txt';
-# my $output_file = '../Output/Ghonim_Nordstrom_output4_(1)_linux.txt';
-# my $output_file = '../Output/Ghonim_Nordstrom_output4_(1)_linux.txt';
+ my $output_file = '../output/Ghonim_Nordstrom_output4_(1)_mac_os1.txt';
+# my $output_file = '../output/Ghonim_Nordstrom_output4_(2)_mac_os.txt';
+# my $output_file = '../output/Ghonim_Nordstrom_output4_(1)_linux.txt';
+# my $output_file = '../output/Ghonim_Nordstrom_output4_(1)_linux.txt';
 
 # Open the file for writing
 open(my $fh, '>', $output_file) or die "Could not open file '$output_file' $!";
