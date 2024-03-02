@@ -24,9 +24,6 @@ for (my $num_processes = 1; $num_processes <= 11; $num_processes++) {
     my $output = `mpirun -np $num_processes ./HW4_1`;
     #my $output = `mpirun -np $num_processes ./HW4_2`;
 
-    #my $output = `mpirun -np $num_processes ../test/mo1`;
-
-
     # Extract the time from the output. 
     my ($time_in_seconds) = $output =~ /Execution Time: ([\d\.]+) seconds/;
 

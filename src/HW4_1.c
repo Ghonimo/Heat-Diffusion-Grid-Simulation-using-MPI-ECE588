@@ -1,3 +1,18 @@
+/*
+ * Heat Diffusion Matrix Simulator
+ * 
+ * This program simulates the diffusion of heat in a 2D grid using the finite difference method.
+ * It calculates the temperature at each point in the grid over a specified number of time steps.
+ * The simulation is parallelized using MPI for distributed computing.
+ * 
+ * Libraries used: mpi.h, stdio.h, stdlib.h, math.h
+ * 
+ * Version: 1.3
+ * Date: February, 28th, 2024
+ * Authors: Mohamed Ghonim, Ahliah Nordstrom 
+ */
+
+
 #include "mpi.h"
 #include <stdio.h>
 #include <stdlib.h>
