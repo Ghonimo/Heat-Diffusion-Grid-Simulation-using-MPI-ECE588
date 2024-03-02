@@ -43,9 +43,8 @@ To run the compiled binary across a specific number of processes:
 ```bash
 mpirun -np <num_processes> ./HW4_1
 ```
-```
-
 To run in batch more, comparing the performance of with different cores, you can execute the perl script below:
+
 ```bash
 ./automate/batch_run.pl
 ```
