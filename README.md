@@ -35,15 +35,20 @@ The program is implemented in C and utilizes MPI to distribute the computation a
 To compile the program with MPI, use:
 
 ```bash
-mpicc -o TempGrid_MPI TempGrid_MPI.c
+mpicc -o HW4_1 HW4_1.c
 ```
 
 To run the compiled binary across a specific number of processes:
 
 ```bash
-mpirun -np <num_processes> ./TempGrid_MPI
+mpirun -np <num_processes> ./HW4_1
+```
 ```
 
+To run in batch more, comparing the performance of with different cores, you can execute the perl script below:
+```bash
+./automate/batch_run.pl
+```
 
 ## Output
 The program outputs the temperatures of specified grid points after every 200 timesteps and displays the total runtime in nanoseconds and seconds.
